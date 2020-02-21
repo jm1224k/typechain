@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    //for using nodejs commonly, and we can import or export various thing!
+    "module": "commonjs",
+    //select which version of javascript to compile
+    "target": "ES2015",
+    "sourceMap": true
+  },
+  "include": ["index.ts"],
+  "exclude": ["node_modules"]
+}
